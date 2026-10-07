@@ -1,0 +1,30 @@
+<section class="page work-page">
+  <header class="page-head"><h1>Projects made for real-world problems.</h1><p>Mobile, desktop, and web projects spanning storm navigation, remote model training, and school scheduling.</p></header>
+  <div class="highlight-panel"><h2>What I like building</h2><p>Useful tools at the intersection of software, data, and real user needs. Current project work includes mobile development, model-assisted routing, remote GPU workflows, and constraint-based scheduling.</p></div>
+  <div class="project-grid">
+    <article class="project-card project-theme-orange">
+      <h2>StormPilot</h2><p>A mobile storm-chasing hub with routing, login, AI chat, and data display features.</p>
+      <ul class="project-facts"><li>Built a Spring Boot REST API deployed on AWS EC2 with Bedrock, and a Spring AI agent for routing and chat.</li><li>Implemented JUnit tests and a GitHub Actions CI/CD pipeline; used Android MVVM, Hilt, Jetpack Compose, and Material 3.</li></ul>
+      <div class="stack-list" aria-label="Technology used"><span>Kotlin</span><span>Spring Boot</span><span>AWS EC2 / Bedrock</span><span>Jetpack Compose</span><span>MCP</span></div>
+      <div class="card-links"><a href="https://github.com/sam-grouchnikov/StormPilot" target="_blank" rel="noreferrer">View repository ↗</a></div>
+    </article>
+    <article class="project-card project-theme-white">
+      <h2>Easy-SSH</h2><p>A desktop control plane for remote GPU model training over SSH.</p>
+      <ul class="project-facts"><li>Includes a live Paramiko terminal, remote file browser, and real-time training log graphs.</li><li>Streams training logs and visualizes metrics through the Weights &amp; Biases API.</li></ul>
+      <div class="stack-list" aria-label="Technology used"><span>Python</span><span>PyQt6</span><span>Paramiko</span><span>Weights &amp; Biases API</span></div>
+      <div class="card-links"><a href="https://github.com/sam-grouchnikov/easy-ssh" target="_blank" rel="noreferrer">View repository ↗</a></div>
+    </article>
+    <article class="project-card project-theme-yellow">
+      <h2>SchedWiz</h2><p>A school scheduling app that generates conflict-free schedules from school data.</p>
+      <ul class="project-facts"><li>Used constraint programming to generate conflict-free school schedules.</li><li>Built a RESTful backend with Ktor and SQLite for persistent, school-wide user and schedule data.</li></ul>
+      <div class="stack-list" aria-label="Technology used"><span>Kotlin</span><span>Ktor</span><span>SQLite</span><span>Constraint programming</span></div>
+      <div class="card-links"><a href="https://github.com/sam-grouchnikov/school-schedule-generator" target="_blank" rel="noreferrer">View repository ↗</a></div>
+    </article>
+    <article class="project-card project-theme-teal">
+      <h2>Sudoku CP/AI Solver</h2><p>Trained neural heuristics to guide constraint programming puzzle solvers.</p>
+      <ul class="project-facts"><li>Trained CNN and GNN architectures to make heuristic decisions.</li><li>Achieved 94% post-training prediction accuracy through iterative model improvement.</li></ul>
+      <div class="stack-list" aria-label="Technology used"><span>PyTorch Lightning</span><span>Weights &amp; Biases</span><span>CNN</span><span>GNN</span></div>
+      <div class="card-links"><a href="https://github.com/sam-grouchnikov/sudoku-cp-ai" target="_blank" rel="noreferrer">View repository ↗</a></div>
+    </article>
+  </div>
+</section>
